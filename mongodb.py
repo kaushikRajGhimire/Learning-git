@@ -1,7 +1,7 @@
 
 from pymongo import MongoClient
 from bson.objectid import ObjectId
-
+import numpy as np
 class MongoDB:
     def __init__(self, db_name="test_db", collection_name="test_collection"):
     
