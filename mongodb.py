@@ -2,6 +2,7 @@
 from pymongo import MongoClient
 from bson.objectid import ObjectId
 import numpy as np
+import pandas as pd
 class MongoDB:
     def __init__(self, db_name="test_db", collection_name="test_collection"):
     
